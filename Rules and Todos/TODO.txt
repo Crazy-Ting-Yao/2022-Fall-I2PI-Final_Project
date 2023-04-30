@@ -1,0 +1,82 @@
+Basic
+
+[V] Pacman [HACKATHON-1] ‘s movement (Can’t pass through wall or run into 
+graphical error)
+[V] Eat Beans [HACKATHON-1]
+[V] Pacman should die if the Pacman touches the ghosts
+    [V] (Not in power-up mode)
+[V] Game should end normally after all the beans are eaten (Or start next round)
+[V] Character Animation (ex. Pacman’s mouth, Ghost movement)
+[V] Ghost
+    [V] Ghost’s movement[HACKATHON-2] (Can’t pass through wall or run into graphical error)
+    [V] Ghost go out of cage [HACKATHON-2]
+[V] Read map from .txt files to generate map
+[V] Score points when beans are eaten by the Pacman.
+[V] Random movement Ghost Spec:
+    [V] Should not repeat the same walking path. (No hard code)
+[V] The original three scenes : Menu, Game, Setting [HACKATHON-3]
+    [V] Successfully switching between Scenes is required.
+    [V] Should go back to menu or the next scene after the end of game scene
+        Program closes unexpectedly is unacceptable. 
+        The only conditions of closing the program is when "close window" or self designed EXIT UI is clicked.
+    [V] Add a 4th scene (we already have Menu, Start, Settings)
+        e.g. Win, Game Over, Restart, End, etc
+[V] Memory management (1%), make sure everything is released
+
+Advanced
+
+[V] Power Bean (3%)
+    [V] After eating the power bean, Pacman can eat the ghosts for a certain amount of time. Ghosts should become blue (sprites images are provided) and move slower in this period.
+    [V] When the power effect is running out, ghosts should twinkle blue and white.
+    [V] Ghosts should run away from Pacman in this period.
+    [V] Ghost should go back to the cage if they are eaten. Their sprite should become eyes. They can come out again after a certain period.
+[V] Design your own tracking rule for Ghosts (1%)
+[V] Gameplay (1%)
+    [V] Pacman animation
+    [V] Ghost movement Animation
+[ ] Art (1%)
+    [V] Different BGM in different scene.
+    [ ] Different version sound effects. (e.g. Two eating sounds for Pacman)
+    [ ] Beautify UI
+    [ ] Beautify Map
+    [ ] Others related to Art.
+        (Pick any two above)
+        (You should describe "Others" during the demo by yourself.
+[V] Advanced UI (1%)
+    Implement the following advanced UI components:
+    [V] Slider, 1 credit
+    [V] Checkbox, 1 credit
+    [V] Progress Bar, 1 credit
+    [ ] Dropdown Menu, 2 credits
+    [ ] Text Input, 3 credits
+        You need to reach 3 credits to get the point of this part.
+        Each component must have valid functionality
+[V] Gameplay (1%)
+    [V] Map choosing or multi-level games
+    [ ] Multiplayer (2P collaborating)
+
+    [ ] Design another two items and design its effect. (MUST be reasonable and DO NOT crash the game)
+    Acceptable Effects (Example)
+    [ ] Speeding up
+    [ ] Ability to temporally pass through walls.
+    [ ] Activate portal
+[ ] Interface Part (1%)
+    [ ] High score table
+        Record the score and have a list of score records.
+        Be able to store it on the disk when program closes, and load it back next time the program starts.
+[V] Function (1%)
+    [V] Custom keys and its UI
+        E.g. map left/right/up/down arrows to WASD
+        Must be editable in the program(No hardcoded)
+        You can use buttons to complete its UI
+[ ] Bonus: Creative (2%)
+    [ ] Good arts (1)
+    [ ] Magnificent attack (1)
+    [ ] Cool animations (1)
+    [ ] Richness of your game (1)
+
+Special
+    cursor changing
+    Self made BGM
+    Fade out when change scene
+    avoid usage of ingame al_rest
